@@ -50,6 +50,11 @@
 			path = mainView;
 			sourceTree = "<group>";
 		};
+		50D0435A2E4DDADE003B1C12 /* memberView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = memberView;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,7 @@
 		5056773B2E4DD71E006199E7 = {
 			isa = PBXGroup;
 			children = (
+				50D0435A2E4DDADE003B1C12 /* memberView */,
 				50D042F32E4DD980003B1C12 /* mainView */,
 				505677462E4DD71E006199E7 /* gitTest */,
 				5056775D2E4DD71F006199E7 /* gitTestTests */,
@@ -116,6 +122,7 @@
 			fileSystemSynchronizedGroups = (
 				505677462E4DD71E006199E7 /* gitTest */,
 				50D042F32E4DD980003B1C12 /* mainView */,
+				50D0435A2E4DDADE003B1C12 /* memberView */,
 			);
 			name = gitTest;
 			packageProductDependencies = (
