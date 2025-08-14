@@ -29,22 +29,9 @@
 		505677642E4DD71F006199E7 /* gitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5056776C2E4DD71F006199E7 /* Exceptions for "gitTest" folder in "gitTest" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 505677432E4DD71E006199E7 /* gitTest */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		505677462E4DD71E006199E7 /* gitTest */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				5056776C2E4DD71F006199E7 /* Exceptions for "gitTest" folder in "gitTest" target */,
-			);
 			path = gitTest;
 			sourceTree = "<group>";
 		};
@@ -56,6 +43,16 @@
 		505677672E4DD71F006199E7 /* gitTestUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = gitTestUITests;
+			sourceTree = "<group>";
+		};
+		50D042F32E4DD980003B1C12 /* mainView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mainView;
+			sourceTree = "<group>";
+		};
+		50D0435A2E4DDADE003B1C12 /* memberView */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = memberView;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,6 +85,8 @@
 		5056773B2E4DD71E006199E7 = {
 			isa = PBXGroup;
 			children = (
+				50D0435A2E4DDADE003B1C12 /* memberView */,
+				50D042F32E4DD980003B1C12 /* mainView */,
 				505677462E4DD71E006199E7 /* gitTest */,
 				5056775D2E4DD71F006199E7 /* gitTestTests */,
 				505677672E4DD71F006199E7 /* gitTestUITests */,
@@ -122,6 +121,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				505677462E4DD71E006199E7 /* gitTest */,
+				50D042F32E4DD980003B1C12 /* mainView */,
+				50D0435A2E4DDADE003B1C12 /* memberView */,
 			);
 			name = gitTest;
 			packageProductDependencies = (
